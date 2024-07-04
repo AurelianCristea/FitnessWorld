@@ -1,0 +1,29 @@
+.user-workouts {
+    padding: 20px;
+}
+
+.user-workouts h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.workout {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.workout h2 {
+    margin-top: 0;
+}
+
+.workout ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.workout ul li {
+    background-color: #f9f9f9;
+    padding: 5px;
+    margin: 5px 0;
+}

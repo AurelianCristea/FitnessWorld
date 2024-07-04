@@ -1,0 +1,50 @@
+.banner{
+    height: 100vh;
+    background: linear-gradient(180deg, #021642,#e1ffea22 60%);
+    display: flex;
+}
+
+.banner-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.banner-left h2{
+    color: #090909;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.banner-left p{
+    color: #171717;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.banner-whey-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-whey-icon img{
+    width: 105px;   
+}
+
+.banner-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-right img{
+    width: 100%;
+    height: 80%;
+    mix-blend-mode: multiply;
+}

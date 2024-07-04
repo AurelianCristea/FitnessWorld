@@ -1,0 +1,28 @@
+.contact {
+  padding: 20px;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.contact-info {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.map-section {
+  grid-column: 1 / -1;
+}

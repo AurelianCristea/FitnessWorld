@@ -1,0 +1,12 @@
+.exercise {
+    width: 350px;
+}
+
+.exercise p {
+    margin: 6px 0;
+}
+
+.exercise:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+}
